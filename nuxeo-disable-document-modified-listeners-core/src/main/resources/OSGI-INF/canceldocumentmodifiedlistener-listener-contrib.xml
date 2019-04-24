@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<component name="org.acme.listeners.listener.canceldocumentmodifiedlistener">
+
+  <extension target="org.nuxeo.ecm.core.event.EventServiceComponent" point="listener">
+    <listener name="canceldocumentmodifiedlistener" class="org.acme.listeners.CancelDocumentModifiedListener" priority="-1" >
+        <event>documentModified</event>
+    </listener>
+  </extension>
+
+</component>

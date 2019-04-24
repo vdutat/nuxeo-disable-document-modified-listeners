@@ -1,0 +1,9 @@
+Bundle-ActivationPolicy: lazy
+Bundle-ClassPath: .
+Manifest-Version: 1.0
+Bundle-Vendor: org.acme.listeners
+Bundle-Version: 1.0.0
+Bundle-Name: nuxeo-disable-document-modified-listeners-core
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: org.acme.listeners.nuxeo-disable-document-modified-listeners-core;singleton=true
+Nuxeo-Component: OSGI-INF/canceldocumentmodifiedlistener-listener-contrib.xml
